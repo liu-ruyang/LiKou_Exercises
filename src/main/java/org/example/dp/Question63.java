@@ -1,4 +1,4 @@
-package org.example;
+package org.example.dp;
 
 public class Question63 {
 
@@ -15,7 +15,7 @@ public class Question63 {
         //     return 0;
         int[][] dp = new int[len][len2];
         dp[0][0] = obstacleGrid[0][0] == 1 ? 0 : 1;
-        
+
         for (int i = 1; i < len2; i++) {
             if (obstacleGrid[0][i] == 1) {
                 dp[0][i] = 0;

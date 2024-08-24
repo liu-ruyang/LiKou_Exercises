@@ -1,4 +1,4 @@
-package org.example;
+package org.example.dp;
 
 public class Question198 {
     public int rob(int[] nums) {

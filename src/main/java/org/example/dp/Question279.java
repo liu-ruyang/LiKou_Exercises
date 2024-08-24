@@ -1,4 +1,4 @@
-package org.example;
+package org.example.dp;
 
 /**
  * 1. 确定dp数组及下标含义

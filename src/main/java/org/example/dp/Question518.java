@@ -1,4 +1,4 @@
-package org.example;
+package org.example.dp;
 
 public class Question518 {
     public static void main(String[] args) {

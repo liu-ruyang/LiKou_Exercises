@@ -1,4 +1,4 @@
-package org.example;
+package org.example.dp;
 
 public class Question96 {
     public int numTrees(int n) {
