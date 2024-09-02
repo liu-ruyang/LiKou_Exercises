@@ -4,6 +4,7 @@ public class Question122 {
     public int maxProfit(int[] prices) {
         int[][] dp = new int[prices.length][2];
 
+
         dp[0][0] = -prices[0];
         dp[0][1] = 0;
         // dp[i][0]代表第i天持有股票的最大收益
