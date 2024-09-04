@@ -1,4 +1,4 @@
-package org.example;
+package org.example.monotonic_stack;
 
 import java.util.Deque;
 import java.util.LinkedList;
