@@ -2,7 +2,6 @@ package org.example.dp;
 
 public class Question53 {
     public int maxSubArray(int[] nums) {
-
         // dp[i]：包括下标i（以nums[i]为结尾）的最大连续子序列和为dp[i]。
         int[] dp = new int[nums.length];
         dp[0] = nums[0];
@@ -19,6 +18,5 @@ public class Question53 {
         }
 
         return max;
-
     }
 }
