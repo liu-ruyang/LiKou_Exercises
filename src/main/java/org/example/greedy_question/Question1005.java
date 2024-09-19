@@ -29,10 +29,10 @@ public class Question1005 {
                 nums[i] = -nums[i];
             }
             Arrays.sort(nums);
-            if (k%2!=0){
+            if (k % 2 != 0) {
                 nums[0] = -nums[0];
             }
-            sum = Arrays.stream(nums).sum()
+            sum = Arrays.stream(nums).sum();
         }
 
         return sum;
