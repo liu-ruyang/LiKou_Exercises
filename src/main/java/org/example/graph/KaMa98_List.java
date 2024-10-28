@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+// dfs模板
 // void dfs(参数) {
 //     if (终止条件) {
 //         存放结果;
