@@ -49,7 +49,7 @@ public class KaMa107_union_find_set {
         // 经过上述两次find函数，u和v可能不是原来的u和v
         if (u == v) return;
         // 最后需要将v的祖先节点设置为u的祖先节点的父节点
-        father[u] = find(v);
+        father[u] = v;
     }
 
     static boolean isSame(int u, int v) {
