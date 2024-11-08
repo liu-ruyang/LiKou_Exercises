@@ -12,7 +12,7 @@ import java.util.Scanner;
  * dijkstra 算法可以同时求 起点到所有节点的最短路径
  * 权值不能为负数
  * <p>
- * dijkstra三部曲：
+ * dijkstra三部曲：（朴素dijkstra）
  * 第一步，选源点到哪个节点近且该节点未被访问过
  * 第二步，该最近节点被标记访问过
  * 第三步，更新非访问节点到源点的距离（即更新minDist数组）
@@ -68,7 +68,7 @@ public class KaMa47_dijkstra {
         }
     }
 }
-//public class KaMa47_dijkstra {
+// public class KaMa47_dijkstra {
 //    static int[] minDist;
 //    static int[][] graph;
 //    static int[] visited;
