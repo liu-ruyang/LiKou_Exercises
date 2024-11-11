@@ -20,7 +20,7 @@ import java.util.Scanner;
 public class KaMa94_bellman_ford {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+ 
         int n = scanner.nextInt();
         int m = scanner.nextInt();
         List<Edge> edges = new ArrayList<>(m);
