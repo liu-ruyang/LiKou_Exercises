@@ -27,6 +27,7 @@ public class Question127 {
         while (!queue.isEmpty()) {
             String s = queue.removeFirst();
             len--;
+            
 
             for (int i = 0; i < s.length(); i++) {
                 for (char c = 'a'; c <= 'z'; c++) {
