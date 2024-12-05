@@ -1,4 +1,4 @@
-package org.example.interview150.mulyi_dim_dp;
+package org.example.interview150.multi_dim_dp;
 
 public class Question5 {
     public static void main(String[] args) {

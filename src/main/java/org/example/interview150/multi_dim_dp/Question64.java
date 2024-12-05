@@ -1,4 +1,4 @@
-package org.example.interview150.mulyi_dim_dp;
+package org.example.interview150.multi_dim_dp;
 
 public class Question64 {
     public int minPathSum(int[][] grid) {

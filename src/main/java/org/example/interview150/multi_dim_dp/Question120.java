@@ -1,4 +1,4 @@
-package org.example.interview150.mulyi_dim_dp;
+package org.example.interview150.multi_dim_dp;
 
 import java.util.Arrays;
 import java.util.List;
