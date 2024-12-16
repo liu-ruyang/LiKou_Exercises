@@ -26,6 +26,10 @@ public class BM45 {
         if (size == 0 || size > num.length) return res;
 
 
+        // 每一轮视为处理一个新的元素，在添加新元素前（如果能形成窗口，那么一定是以该元素为终止位置的），做如下判断：
+        // 队列中比新元素小的元素，直接弹出（因为每个元素的左边更小的元素不需要维护，迟早是要舍弃的）
+        // 新元素添加到队尾
+        // 新元素添加之后，在添加队头元素到返回列表中之前，判断当前的队头元素是否需要因为不在新的窗口中而需要弹出
         for (int i = 0; i < num.length; i++) {
             while (!deque.isEmpty() && num[deque.getLast()] < num[i]) {
                 deque.removeLast();
