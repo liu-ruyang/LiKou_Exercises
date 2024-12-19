@@ -1,4 +1,4 @@
-package org.example.niuke_top101.dp;
+package org.example.niuke_top101.string;
 
 import java.util.LinkedList;
 
