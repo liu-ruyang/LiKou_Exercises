@@ -27,6 +27,17 @@ public class BM96 {
         // int start = startEnd[0][0];
         int end = startEnd[0][1];
         for (int i = 0; i < startEnd.length; i++) {
+            /**
+             * 还可以优化：
+             * 将所有活动的时间点拆分成开始时间和结束时间的两个数组，分别排序：
+             *
+             * 这样可以更高效地找到是否有主持人可以复用。
+             * 排序的目的是让时间顺序变得明确，便于逐一比较活动的时间点。
+             * 通过比较活动的开始时间与结束时间，判断是否需要新增主持人：
+             *
+             * 如果一个活动的开始时间大于等于当前最早结束的活动时间，说明主持人可以复用。
+             * 否则，需要新增主持人。
+             */
             if (startEnd[i][0] < end) {
                 // res++;
                 if (smallHeap.isEmpty() || smallHeap.peek()[1] > startEnd[i][0]) {
