@@ -27,8 +27,8 @@ public class Question909 {
         int n = board.length;
         int[] res = new int[n * n + 1];
         Arrays.fill(res, Integer.MAX_VALUE);
-        res[0] = 0;
-        queue.add(0);
+        res[1] = 0;
+        queue.add(1);
         while (!queue.isEmpty()) {
             Integer cur = queue.pop();
             for (int i = 1; i <= 6; i++) {
@@ -51,8 +51,7 @@ public class Question909 {
                 }
             }
         }
-
-        return res[n * n];
+        return res[n * n] == Integer.MAX_VALUE ? -1 : res[n * n];
     }
 
     // num是1-n^2的序号，返回的是num对应到board二维矩阵中的位置的值
