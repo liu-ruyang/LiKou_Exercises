@@ -31,7 +31,7 @@ public class Question909 {
         queue.add(0);
         while (!queue.isEmpty()) {
             Integer cur = queue.pop();
-            for (int i = 1; i <= n; i++) {
+            for (int i = 1; i <= 6; i++) {
                 if (cur + i > n * n) {
                     continue;
                 }
