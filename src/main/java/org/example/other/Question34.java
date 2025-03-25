@@ -7,7 +7,7 @@ public class Question34 {
         new Question34().searchRange(a, 0);
     }
 
-    public int[] searchRange(int[] nums, int target) {
+    public int[] searchRange2(int[] nums, int target) {
         int littlerIndex = searchFirstLittler(nums, target);
         int largerIndex = searchFirstLarger(nums, target);
 
